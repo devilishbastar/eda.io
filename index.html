@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>eda</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Хотим есть (Юля хочет)</h1>
+    <div class="menu" id = 'menu'>
+        <ul>
+            <li class="category" id = 'button1'><button class="category-button">Обеды</button></li>
+            <li class="category" id = 'button2'><button class="category-button">Ужины</button></li>
+            <li class="category" id = 'button3'><button class="category-button">Салаты</button></li>
+        </ul>
+    </div>
+
+    <!-- Обеды -->
+    <div class='dinner' id='dinner_casino'>
+        <div class='viewport'>
+            <div class='roulette' id='roulette_dinner'>
+                <div class="item">Борщ</div>
+                <div class="item">Суп-Лапша</div>
+                <div class="item">Суп гречневый</div>
+                <div class="item">Свекольник</div>
+            </div>
+        </div>
+        <div class='controls'>
+            <button id='spinBtn_dinner' class='spinBtn'>Крутить</button>
+            <button id='returnBtn_dinner' class='returnBtn'>Вернутся</button>
+        </div>
+    </div>
+
+    <!-- Ужины -->
+    <div class='evenning' id='evenning_casino'>
+        <div class='viewport'>
+            <div class='roulette' id='roulette_evenning'>
+                <div class="item">Рагу</div>
+                <div class="item">Макароны с сосисками</div>
+                <div class="item">Лазанья</div>
+                <div class="item">Макароны "по-флотски"</div>
+                <div class="item">Гречка с котлетой</div>
+                <div class="item">Картошка жаренная</div>
+                <div class="item">Пельмени/Вареники</div>
+                <div class="item">Картошка с мясом</div>
+                <div class="item">Пюре с купатами</div>
+                <div class="item">Рис с овощами</div>
+                <div class="item">Капуста тушенная</div>
+                <div class="item">"Карбонара"</div>
+                <div class="item">Каша ячневая с мясом</div>
+                <div class="item">Нагетсы + рис</div>
+            </div>
+        </div>
+        <div class='controls'>
+            <button id='spinBtn_evenning' class='spinBtn'>Крутить</button>
+            <button id='returnBtn_evenning' class='returnBtn'>Вернутся</button>
+        </div>
+    </div>
+
+    <!-- Салаты -->
+    <div class='salad' id='salad_casino'>
+        <div class='viewport'>
+            <div class='roulette' id='salad_evenning'>
+                <div class="item">Крабовый</div>
+                <div class="item">Фирменный Ю.Н.</div>
+                <div class="item">Салат мамин</div>
+                <div class="item">Салат "дачный"</div>
+                <div class="item">Весенний салат</div>
+                <div class="item">Салат "Тик-Ток"</div>
+                <div class="item">Оливье</div>
+            </div>
+        </div>
+        <div class='controls'>
+            <button id='spinBtn_salad' class='spinBtn'>Крутить</button>
+            <button id='returnBtn_salad' class='returnBtn'>Вернутся</button>
+        </div>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>
